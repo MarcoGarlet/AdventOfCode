@@ -58,16 +58,3 @@ for (let map of data){
 
 let minDest = Math.min(...sources);
 console.log(minDest);
-process.exit()
-let result = 0;
-for (let keyMap of Object.keys(seedMaps)){
-        if (seedMaps[keyMap][seedMaps[keyMap].length-1] === minDest){
-                result = seedMaps[keyMap][0];
-                break;
-        }
-}
-
-
-
-
-console.log(minDest);
